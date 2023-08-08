@@ -29,7 +29,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" AIコンシュルジュチャットボット")
+st.title(st.secrets.AppSettings.chatbot_title)
 st.image("ai_computer_sousa_robot.png")
 st.write("何にお困りですか？")
 
